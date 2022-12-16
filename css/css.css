@@ -1,0 +1,46 @@
+@font-face{
+  font-family:"Furryfont" ;
+  src: url('../Furry_font.ttf') ;
+}
+        
+        .teste {
+            margin-left: 78%;
+            margin-top: 10px;
+            top: 100px;
+            position: sticky;
+            }
+        .teste1 {
+            margin-left: 84%;
+           
+            top: 10px;
+            position: sticky;
+            }    
+            body::-webkit-scrollbar {
+                width: 10px;               /* width of the entire scrollbar */
+              }
+              
+              body::-webkit-scrollbar-track {
+                background: transparent;        /* color of the tracking area */
+              }
+              
+              body::-webkit-scrollbar-thumb {
+                background-color: greenyellow;    /* color of the scroll thumb */
+                border-radius: 30px;       /* roundness of the scroll thumb */
+                border: 3px solid transparent;  /* creates padding around scroll thumb */
+              }
+
+    .furrystyle {
+      height:400px;
+      border-radius:20px; 
+      box-shadow:3px 3px 3px black;
+      cursor:pointer;
+    }
+    .furrystyleincrease {
+      height:405px;
+      border-radius:20px; 
+      box-shadow:3px 3px 3px black;
+      cursor:pointer;
+      border-width: 2px;
+      border-color: white;
+    }
+    
